@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{underscore}
+\usepackage{hyperref}
+\usepackage{CTEX}
+\begin{document}
+    Sales_data(const std::string\&s):bookNo(s){} constructor initializer list\\
+    {\kaishu 一个类就是一个作用域}\\
+    {\kaishu 编译器处理完类中的全部声明后才会处理成员函数的定义}\\
+    {\kaishu 声明前+外层作用域  函数的返回类型}\\
+    {\kaishu 成员的初始化顺序与它们在类定义中的出现顺序一致}\\
+    {\kaishu 在委托构造函数内，成员初始值列表只有唯一一个入口，那就是类名本身}\\
+    {\kaishu 只允许一步类类型转换}\\
+    {\kaishu 将函数声明为explicit阻止隐式转换——需要多个实参的构造函数不能用于执行隐式转换——explicit只允许出现在类内的构造函数声明处}\\
+    {\kaishu vector将其单参数的构造函数定义成explicit的}\\
+    {\kaishu类的静态成员：与类关联，存在于任何对象之外，使用用域运算符访问}\\
+    {\kaishu 必须在类的外部定义和初始化每个静态成员---可以为静态成员提供const整数类型的类内初始值，要求静态成员必须是字面值常量类型的constexpr}
+\end{document}
